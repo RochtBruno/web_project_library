@@ -223,7 +223,7 @@
   flex-shrink: 0;
   flex-basis: 780px;
   max-width: 780px;
-  position: relative; 
+  position: relative;
 }
 
 .events__image {
@@ -235,7 +235,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 10px; 
+  gap: 10px;
 }
 
 .person_name_feynman {
@@ -244,7 +244,7 @@
 }
 
 .person_name_burbidge {
-  top:  96px;
+  top: 96px;
   right: 125px;
 }
 .person_name_cannon {
@@ -282,4 +282,104 @@
   text-align: center;
   font-size: 14px;
   margin: 0;
+}
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px auto auto;
+  display: flex;
+  gap: 40px;
+}
+.step {
+  margin: 0 auto;
+  flex-basis: 220px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  padding: 60px 80px;
+}
+
+.footer__columns {
+  display: flex;
+}
+
+.footer__column_content_hours {
+  padding: 0;
+  margin-left: auto;
+  margin-right: 80px;
+}
+
+.footer__column_content_social {
+  padding: 0;
+}
+
+.footer__logo {
+  width: 58px;
+  height: 80px;
+}
+
+.footer__column-heading {
+  margin-bottom: 20px;
+  margin-top: -3px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin-bottom: 16px;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.footer__copyright {
+  margin-top: 100px;
 }
