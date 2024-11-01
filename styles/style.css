@@ -302,9 +302,9 @@
 .membership__steps {
   list-style-type: none;
   padding: 0;
-  margin: 100px auto auto;
+  margin: 100px 40px 40px;
   display: flex;
-  gap: 40px;
+  justify-content: space-between;
 }
 .step {
   margin: 0 auto;
@@ -340,13 +340,11 @@
 }
 
 .footer__column_content_hours {
-  padding: 0;
   margin-left: auto;
-  margin-right: 80px;
 }
 
 .footer__column_content_social {
-  padding: 0;
+  margin-left: 80px;
 }
 
 .footer__logo {
@@ -372,6 +370,8 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .footer__social-icon {
